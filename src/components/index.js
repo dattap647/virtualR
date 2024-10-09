@@ -1,8 +1,7 @@
-export { Hero } from "./Hero";
-export { Feature } from "./Features";
-export { default as Workflows } from "./Workflow";
-export { Pricing } from "./Pricing";
-export { Testimonial } from "./Testimonial";
-export { Navbar } from "./Navbar";
-export { Footer } from "./Footer";
-export { Features } from "./Features";
+export { default as Heros } from "./Heros";
+export { default as Features } from "./Features";
+export { default as Workflows } from "./Flow";
+export { default as Pricing } from "./Pricing";
+export { default as Testimonial } from "./Testimonial";
+export { default as Navbar } from "./Navbar";
+export { default as Footer } from "./Footer";

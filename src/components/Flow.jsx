@@ -2,7 +2,7 @@ import React from "react";
 import { CheckCircle } from "lucide-react";
 import codeImg from "../assets/code.jpg";
 import { checklistItems } from "../constants";
-function Workflows() {
+const Flow = () => {
   return (
     <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center">
@@ -32,6 +32,6 @@ function Workflows() {
       </div>
     </div>
   );
-}
+};
 
-export default Workflows;
+export default Flow;

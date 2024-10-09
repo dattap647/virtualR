@@ -1,7 +1,7 @@
 import React from "react";
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
-const Hero = () => {
+const Heros = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-8xl text-center tracking-wide">
@@ -35,7 +35,7 @@ const Hero = () => {
           muted
           className="rounded-lg w-1/2 border border-orange-700"
         >
-          <source src={video1} type="video/mp4"/>
+          <source src={video1} type="video/mp4" />
           Your browser does not support Video
         </video>
         <video
@@ -44,11 +44,12 @@ const Hero = () => {
           muted
           className="rounded-lg w-1/2 border border-orange-700"
         >
-          <source src={video2} type="video/mp4"/>
+          <source src={video2} type="video/mp4" />
           Your browser does not support Video
         </video>
       </div>
     </div>
   );
 };
-export default Hero;
+
+export default Heros;

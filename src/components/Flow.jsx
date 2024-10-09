@@ -21,7 +21,7 @@ const Flow = () => {
           {checklistItems.map((items, index) => (
             <div className="flex mb-12" key={index}>
               <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
-                <CheckCircle />
+                <CheckCircle/>
               </div>
               <div className="">
                 <h5 className="mt-1 mb-2 text-xl">{items.title}</h5>

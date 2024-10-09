@@ -1,11 +1,11 @@
 import {
   Features,
+  Flow,
   Footer,
   Heros,
   Navbar,
   Pricing,
   Testimonial,
-  Workflows,
 } from "./components";
 
 
@@ -17,7 +17,7 @@ export default function App() {
         <Heros />
       </div>
       <Features />
-      <Workflows />
+      <Flow />
       <Pricing />
       <Testimonial />
       <Footer />

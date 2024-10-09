@@ -1,10 +1,12 @@
-import Features from "./components/Features";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Testimonial from "./components/Testimonial";
-import Hero from "./components/hero";
-import Pricing from "./components/pricing";
-import Workflows from "./components/workflow";
+import {
+  Features,
+  Footer,
+  Hero,
+  Navbar,
+  Pricing,
+  Testimonial,
+  Workflows,
+} from "./components";
 
 export default function App() {
   return (
@@ -15,9 +17,9 @@ export default function App() {
       </div>
       <Features />
       <Workflows />
-      <Pricing/>
-      <Testimonial/>
-      <Footer/>
+      <Pricing />
+      <Testimonial />
+      <Footer />
     </>
   );
 }

@@ -1,7 +1,8 @@
 import React from "react";
-import { CheckCircle } from "lucide-react";
 import codeImg from "../assets/code.jpg";
 import { checklistItems } from "../constants";
+import { CheckCircle } from "lucide-react";
+
 const Flow = () => {
   return (
     <div className="mt-20">

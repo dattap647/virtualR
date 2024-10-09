@@ -1,7 +1,7 @@
 import React from "react";
 import codeImg from "../assets/code.jpg";
 import { checklistItems } from "../constants";
-
+import check from "../assets/check.png";
 const Flow = () => {
   return (
     <div className="mt-20">
@@ -19,8 +19,7 @@ const Flow = () => {
         <div className="pt-12 w-full lg:w-1/2">
           {checklistItems.map((items, index) => (
             <div className="flex mb-12" key={index}>
-              <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
-              </div>
+              <img className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full" src={check}/>
               <div className="">
                 <h5 className="mt-1 mb-2 text-xl">{items.title}</h5>
                 <p className="text-md text-neutral-500">{items.description}</p>

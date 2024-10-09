@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import close from "../assets/close.png";
+import menu from "../assets/hamburger.png";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
-import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -38,7 +39,11 @@ const Navbar = () => {
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toogleMenu}>
-              {mobileDrawerOpen ? <X /> : <Menu />}
+              {mobileDrawerOpen ? (
+                <img className="w-5 h-5 text-white " src={close} />
+              ) : (
+                <img className="w-6 h-6 text-white " src={menu} />
+              )}
             </button>
           </div>
         </div>
@@ -55,7 +60,10 @@ const Navbar = () => {
               <a href="#" className="border rounded-md py-2 px-3">
                 Sign In
               </a>
-              <a href="#" className="border rounded-md py-2 px-3 bg-gradient-to-r from-orange-500 to-orange-800">
+              <a
+                href="#"
+                className="border rounded-md py-2 px-3 bg-gradient-to-r from-orange-500 to-orange-800"
+              >
                 Create Account
               </a>
             </div>

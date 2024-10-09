@@ -1,7 +1,7 @@
 import React from "react";
 import codeImg from "../assets/code.jpg";
 import { checklistItems } from "../constants";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 const Flow = () => {
   return (
@@ -21,7 +21,7 @@ const Flow = () => {
           {checklistItems.map((items, index) => (
             <div className="flex mb-12" key={index}>
               <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
-                <CheckCircle/>
+                <CheckCircle2/>
               </div>
               <div className="">
                 <h5 className="mt-1 mb-2 text-xl">{items.title}</h5>

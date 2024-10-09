@@ -1,9 +1,4 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -60,37 +55,37 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
+    icon: "",
     text: "Drag-and-Drop Interface",
     description:
       "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
   },
   {
-    icon: <Fingerprint />,
+    icon: "",
     text: "Multi-Platform Compatibility",
     description:
       "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
   },
   {
-    icon: <ShieldHalf />,
+    icon: "",
     text: "Built-in Templates",
     description:
       "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
   },
   {
-    icon: <BatteryCharging />,
+    icon: "",
     text: "Real-Time Preview",
     description:
       "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
   },
   {
-    icon: <PlugZap />,
+    icon: "",
     text: "Collaboration Tools",
     description:
       "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
   },
   {
-    icon: <GlobeLock />,
+    icon: "",
     text: "Analytics Dashboard",
     description:
       "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
